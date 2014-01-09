@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Reset</string>
+			<key>footerText</key>
+			<string>Enabling this option will clear keychain the next time you launch 1Password.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.1pal</string>
+			<key>key</key>
+			<string>clearKeychain</string>
+			<key>label</key>
+			<string>Clear Keychain</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Bio</string>
+			<key>footerText</key>
+			<string>By default, 1Pal checks for the presence of known biometric applications (eg. BioLockdown, BioProtect, etc). Enabling this option will disable this check, allowing you to ignore all the pesky security checks I put in place to save you from yourself (not recommended, duh).</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.1pal</string>
+			<key>key</key>
+			<string>bypassSecurity</string>
+			<key>label</key>
+			<string>Skip Bio-Check</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>© 2014 fortysixandtwo, ltd.</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string>Author</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>launchTwitter:</string>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow @magn2o on Twitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Icon designed by packrobottom.</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>1Pal</string>
+</dict>
+</plist>

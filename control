@@ -1,0 +1,9 @@
+Package: com.fortysixandtwo.1pal
+Name: 1Pal
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Automatically enters your master password upon launching of the 1Password app.
+Maintainer: magn2o
+Author: magn2o
+Section: Tweaks
