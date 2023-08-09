@@ -1,6 +1,6 @@
 #import "SSKeychain.h"
 
-#define kBioAppsList @"/private/var/mobile/Library/Preferences/com.rpetrich.biolockdown.plist", @"/private/var/mobile/Library/Preferences/net.limneos.bioprotect.plist", @"/private/var/mobile/Library/Preferences/com.nnfyrbsnss.applocker.plist", nil
+#define kBioAppsList @"/private/var/mobile/Library/Preferences/com.rpetrich.biolockdown.plist", @"/private/var/mobile/Library/Preferences/com.rpetrich.biolockdown.license", @"/private/var/mobile/Library/Preferences/net.limneos.bioprotect.plist", @"/private/var/mobile/Library/Preferences/com.nnfyrbsnss.applocker.plist", @"/private/var/mobile/Library/Preferences/com.a3tweaks.asphaleia.plist", nil
 
 #define k1PalPrefs @"/private/var/mobile/Library/Preferences/com.fortysixandtwo.1pal.plist"
 
@@ -47,7 +47,7 @@ static void showAlert(NSString *message, NSString *buttonTitle);
     }
     else
     {
-        showAlert(@"Hey, whoa! We got a badass over here! It appears that you DO NOT have any biometric security apps installed (eg. BioLockdown, BioProtect, etc). It's rather foolish to use 1Pal without one, don't you think? That being said, if you'd prefer to spit in the face of danger (or if you think this message is in error), you can disable Security Detection in Settings.", @"Sir, yes, sir!");
+        showAlert(@"Hey, whoa! We got a badass over here! It appears that you DO NOT have any biometric security apps installed (eg. BioLockdown, BioProtect, etc). It's rather foolish to use 1Pal without one, don't you think? That being said, if you'd prefer to spit in the face of danger (or if you think this message is in error), you can enabled the \"Skip Bio-Check\" option in Settings.", @"Sir, yes, sir!");
         
         OPMasterPasswordFromKeychain = nil;
     }

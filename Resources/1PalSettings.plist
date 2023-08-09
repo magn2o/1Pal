@@ -59,15 +59,15 @@
 			<string>Author</string>
 		</dict>
 		<dict>
-			<key>action</key>
-			<string>launchTwitter:</string>
-			<key>alignment</key>
-			<integer>2</integer>
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>label</key>
-			<string>Follow @magn2o on Twitter</string>
-		</dict>
+			<string>@magn2o</string>
+			<key>action</key>
+			<string>launchTwitter:</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+		</dict>		
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
